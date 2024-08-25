@@ -1,0 +1,22 @@
+{
+  "name": "react-speech-to-text",
+  "version": "1.0.0",
+  "description": "Convert Speech into Text",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/zohaibahmad12/react-speech-to-text.git"
+  },
+  "keywords": [
+    "react-speech-to-text"
+  ],
+  "author": "zohaibahmad12",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/zohaibahmad12/react-speech-to-text/issues"
+  },
+  "homepage": "https://github.com/zohaibahmad12/react-speech-to-text#readme"
+}
