@@ -1,6 +1,6 @@
 {
   "name": "react-speech-to-text-lib",
-  "version": "1.0.1",
+  "version": "1.0.2",
   "description": "A dependency for converting speech into text.",
   "main": "index.js",
   "types": "react-speech-to-text-lib.d.ts",
