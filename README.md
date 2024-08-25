@@ -1,8 +1,6 @@
-
 # react-text-to-speech-lib
 
 react-speech-to-text is a lightweight library for integrating speech-to-text functionality into your React applications. Leveraging the Web Speech API, this package provides a simple and effective way to convert speech into text.
-
 
 ## Installation
 
@@ -11,7 +9,6 @@ To install react-text-to-speech-lib dependency into your React project:
 ```bash
   npm install react-speech-to-text-lib
 ```
-
 
 ## Example Usage
 
@@ -40,10 +37,8 @@ function App() {
 }
 
 export default App;
-
 ```
 
+## Author
 
-## Authors
 [Zohaib Ahmad](https://www.github.com/zohaibahmad12)
-
