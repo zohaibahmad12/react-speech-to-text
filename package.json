@@ -1,7 +1,7 @@
 {
-  "name": "react-speech-to-text",
+  "name": "react-speech-to-text-lib",
   "version": "1.0.0",
-  "description": "Convert Speech into Text",
+  "description": "A dependency for converting speech into text.",
   "main": "index.js",
   "scripts": {
     "test": "echo \"Error: no test specified\" && exit 1"
@@ -11,9 +11,12 @@
     "url": "git+https://github.com/zohaibahmad12/react-speech-to-text.git"
   },
   "keywords": [
-    "react-speech-to-text"
+    "react",
+    "speech-to-text",
+    "voice-recognition",
+    "speech-recognition"
   ],
-  "author": "zohaibahmad12",
+  "author": "zohaib-ahmad",
   "license": "ISC",
   "bugs": {
     "url": "https://github.com/zohaibahmad12/react-speech-to-text/issues"
