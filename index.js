@@ -1,11 +1,21 @@
-import { useState, useRef } from "react";
+import { useState, useRef, useEffect } from "react";
 
 function useSpeechRecognition() {
   const [text, setText] = useState("");
+  const [isBrowserSupported, setIsBrowserSupported] = useState(true);
   const [isRecording, setIsRecording] = useState(false);
   const recognitionRef = useRef(null);
 
+  if (!window.webkitSpeechRecognition) {
+    setIsSupported(false);
+  }
+
   const startRecording = () => {
+    if (!window.webkitSpeechRecognition) {
+      setIsSupported(false);
+      console.log("Speech Recognition is not supported in this browser");
+      return;
+    }
     const recognition = new window.webkitSpeechRecognition();
     recognition.interimResults = true;
     recognition.continuous = true;
@@ -33,7 +43,19 @@ function useSpeechRecognition() {
     }
   };
 
-  return { startRecording, stopRecording, text, isRecording };
+  useEffect(() => {
+    return () => {
+      stopRecording();
+    };
+  }, []);
+
+  return {
+    startRecording,
+    stopRecording,
+    text,
+    isRecording,
+    isBrowserSupported,
+  };
 }
 
 export default useSpeechRecognition;
