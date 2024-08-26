@@ -1,7 +1,7 @@
 {
   "name": "react-speech-to-text-converter",
-  "version": "1.0.2",
-  "description": "A dependency for converting speech into text.",
+  "version": "1.0.0",
+  "description": "A lightweight library for integrating speech-to-text functionality into your React applications, using the Web Speech API under the hood.",
   "main": "index.js",
   "types": "react-speech-to-text-converter.d.ts",
   "scripts": {
