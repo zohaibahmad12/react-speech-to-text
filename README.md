@@ -1,4 +1,4 @@
-# react-text-to-speech-converter
+# react-speech-to-toolkit
 
 react-speech-to-text-toolkit is a lightweight library for integrating speech-to-text functionality into your React applications. Leveraging the Web Speech API, this package provides a simple and effective way to convert speech into text.
 
