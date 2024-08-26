@@ -1,4 +1,4 @@
-declare module "react-speech-to-text-converter" {
+declare module "react-speech-to-text-toolkit" {
   export function useSpeechRecognition(): {
     startRecording: () => void;
     stopRecording: () => void;

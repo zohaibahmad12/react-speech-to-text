@@ -1,15 +1,15 @@
 {
-  "name": "react-speech-to-text-converter",
+  "name": "react-speech-to-text-toolkit",
   "version": "1.0.0",
   "description": "A lightweight library for integrating speech-to-text functionality into your React applications, using the Web Speech API under the hood.",
   "main": "index.js",
-  "types": "react-speech-to-text-converter.d.ts",
+  "types": "react-speech-to-text-toolkit.d.ts",
   "scripts": {
     "test": "echo \"Error: no test specified\" && exit 1"
   },
   "repository": {
     "type": "git",
-    "url": "git+https://github.com/zohaibahmad12/react-speech-to-text-converter.git"
+    "url": "git+https://github.com/zohaibahmad12/react-speech-to-text-toolkit.git"
   },
   "keywords": [
     "react",
@@ -20,7 +20,7 @@
   "author": "zohaib-ahmad",
   "license": "ISC",
   "bugs": {
-    "url": "https://github.com/zohaibahmad12/react-speech-to-text-converter/issues"
+    "url": "https://github.com/zohaibahmad12/react-speech-to-text-toolkit/issues"
   },
-  "homepage": "https://github.com/zohaibahmad12/react-speech-to-text-converter#readme"
+  "homepage": "https://github.com/zohaibahmad12/react-speech-to-text-toolkit#readme"
 }
